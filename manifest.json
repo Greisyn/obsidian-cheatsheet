@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "local.obsidian-cheatsheet",
+  "name": "Obsidian Cheatsheet",
+  "version": "1.0.0",
+  "author": "local",
+  "description": "Quick-view Obsidian shortcuts + Markdown formatting dropdown (from sheetly.org/cheatsheets/obsidian)",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Obsidian Cheatsheet",
+    "description": "Searchable Obsidian shortcuts and Markdown formatting in a bar dropdown. Click a row to copy.",
+    "category": "Productivity",
+    "allowMultiple": false,
+    "defaultSection": "center"
+  }
+}
