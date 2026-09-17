@@ -17,6 +17,11 @@ Features:
 
 ## Install
 ```bash
+omarchy plugin add https://github.com/Greisyn/obsidian-cheatsheet.git --enable
+```
+
+Manual install:
+```bash
 mkdir -p ~/.config/omarchy/plugins/local.obsidian-cheatsheet
 cp manifest.json Panel.qml cheatsheet.js ~/.config/omarchy/plugins/local.obsidian-cheatsheet/
 # then enable in Omarchy menu → Style / bar settings, or add to shell.json:
