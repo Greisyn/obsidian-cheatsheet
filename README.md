@@ -35,3 +35,20 @@ Requires `wl-copy` (wl-clipboard) or `xclip` for copy-to-clipboard.
 ```bash
 omarchy plugin remove local.obsidian-cheatsheet
 ```
+
+## Placement (left / center / right)
+
+This is a standard `bar-widget` — it can already live in any bar section.
+Placement is controlled by the shell, no plugin code change needed
+(`defaultSection: center` in `manifest.json` is just the default).
+
+```bash
+omarchy plugin enable local.obsidian-cheatsheet --section left
+omarchy plugin enable local.obsidian-cheatsheet --section center
+omarchy plugin enable local.obsidian-cheatsheet --section right
+
+# or move an already-enabled widget:
+omarchy bar move local.obsidian-cheatsheet --section left
+omarchy bar move local.obsidian-cheatsheet --section center
+omarchy bar move local.obsidian-cheatsheet --section right
+```
