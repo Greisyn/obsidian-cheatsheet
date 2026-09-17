@@ -30,3 +30,8 @@ omarchy menu refresh
 ```
 
 Requires `wl-copy` (wl-clipboard) or `xclip` for copy-to-clipboard.
+
+## Uninstall
+```bash
+omarchy plugin remove local.obsidian-cheatsheet
+```
